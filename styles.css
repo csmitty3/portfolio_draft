@@ -1,0 +1,37 @@
+body {
+    color: white;
+    background-image: url('Hoop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    height: 700px;
+    margin: 0;
+}
+h4 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    border-style: double;
+}
+nav {
+    background-color: rgb(110, 110, 110, 0.8)
+}
+.siders {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+#left-sider {
+    float: left;
+}
+#right-sider {
+    float: right;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+main {
+    position: relative;
+  top: 64.54px;
+}
